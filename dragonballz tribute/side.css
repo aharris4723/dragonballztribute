@@ -1,0 +1,115 @@
+#heading{
+	font-family: 'Shrikhand', cursive;
+	position: absolute;
+	top: 45%;
+	left:35%;
+	color: yellow;
+}
+#headingz{
+	font-family: 'Shrikhand', cursive;
+	position: absolute;
+	top: 45%;
+	left:63.5%;
+	color: red;
+}
+#pageone{
+	background-image: url('page1.jpeg');
+	background-color: red;
+	background-position: center;
+	width: 100%;
+	height: 600px;
+}
+#orb{
+	border: px solid black;
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	position: absolute;
+	left:5%; 
+	top:40%;
+	background-color: black;
+	background-position: center;
+	opacity: .8;
+	text-align: cover;
+    color: black;
+    font-size: 30pt;
+    background-image: url('planet7.jpg');
+    -webkit-animation: rotation 30s infinite linear;
+}
+#orb2{
+	border: px solid black;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	position: absolute;
+	left:25%; 
+	top:3%;
+	background-color: black;
+	background-position: center;
+	opacity: .8;
+	text-align: center;
+    color: black;
+    font-size: 30pt;
+    background-image: url('planet5.jpg');
+    -webkit-animation: rotation 30s infinite linear;
+}
+#orb3{
+	border: px solid black;
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	position: absolute;
+	left:70%; 
+	top:20%;
+	background-color: black;
+	background-position: center;
+	opacity: .8;
+	text-align: cover;
+    color: black;
+    font-size: 30pt;
+    background-image: url('planet7.jpg');
+    -webkit-animation: rotation 30s infinite linear;
+}
+.parallax { 
+    /* The image used */
+    background-image: url("jiren3.png");
+
+    /* Set a specific height */
+    height: 500px; 
+    width: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+}
+}
+#jiren{
+	border: 2px solid black;
+	height: 600px;
+	width: 100%;
+	background-image: url('beerus2.jpg');
+	background-position: cover;
+	background-color: black;
+	/*position: absolute;
+	top: 25%;
+	left: 25%;
+*/
+}
+#page2{
+	border: 2px solid black;
+	height: 600px;
+	width: 100%;
+	background-image: url('dyspo2.jpg');
+	background-position: center;
+	background-color: black;
+
+}

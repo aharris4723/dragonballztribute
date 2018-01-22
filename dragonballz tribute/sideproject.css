@@ -1,0 +1,11 @@
+*{
+	margin: 0 auto;
+	padding: 0 auto;
+}
+.main-photo{
+	background-image: url('sideprojectpic1.jpg');
+	background-color: red;
+	background-position: center;
+	width: 500px;
+	height: 400px;
+}
